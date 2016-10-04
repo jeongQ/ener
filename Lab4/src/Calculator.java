@@ -45,12 +45,6 @@ public class Calculator {
 	{
 		return 0;
 	}
-	/*
-	public String toString ()
-	{
-		String str = name1 + " " + name2 + " " + name3 + " " + ID1 + " " + ID2 + " " + ID3 + " " + URI;
-		
-		return str;
-	}*/
+	
 
 }
