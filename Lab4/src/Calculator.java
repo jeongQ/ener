@@ -20,7 +20,7 @@ public class Calculator {
 	}
 	public double subtract(double x, double y)
 	{
-		return 0;
+		return -1;
 	}
 	public double multiply(double x, double y)
 	{
