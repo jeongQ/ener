@@ -1,10 +1,24 @@
 import java.util.*;
 public class Calculator {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	String n1;
+	String n2;
+	String n3;
+	String i1;
+	String i2;
+	String i3;
+	String URL;
+	public Calculator(String num1, String num2, String num3, String id1, String id2, String id3, String url)
+	{
+		n1 = num1;
+		n2 = num2;
+		n3 = num3;
+		i1 = id1;
+		i2 = id2;
+		i3 = id3;
+		URL = url;
+		
 	}
+	
 	public double add(double x, double y)
 	{
 		double result=0;
@@ -21,7 +35,7 @@ public class Calculator {
 	public double multiply(double x, double y)
 	{
 		double result = x * y;
-		return 0;
+		return result;
 	}
 	public double divide(double x, double y)
 	{
@@ -44,8 +58,8 @@ public class Calculator {
 	public String toString()
 	{
 		String str;
-		str = n1 + " "+ n2 + " "+ n3 + " "+ i1 + " "+ i2
-				+ " "+ i3+ " "+ URL;
+		str = n1 + " "+ i1 + "\n"+ n2 + " "+ i2 + "\n"+ n3
+				+ " "+ i3+ "\n"+ URL;
 		return str;
 	}
 }
