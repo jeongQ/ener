@@ -1,3 +1,4 @@
+import java.util.*;
 public class Calculator {
 
 	public static void main(String[] args) {
@@ -6,8 +7,9 @@ public class Calculator {
 	}
 	public double add(double x, double y)
 	{
-		
-		return 0;
+		double result=0;
+		result = x + y;
+		return result;
 	}
 	public double subtract(double x, double y)
 	{
@@ -18,6 +20,7 @@ public class Calculator {
 	}
 	public double multiply(double x, double y)
 	{
+		double result = x * y;
 		return 0;
 	}
 	public double divide(double x, double y)
@@ -36,6 +39,14 @@ public class Calculator {
 		rem = (int)(x%y);
 		
 		return rem;
+	}
+	
+	public String toString()
+	{
+		String str;
+		str = n1 + " "+ n2 + " "+ n3 + " "+ i1 + " "+ i2
+				+ " "+ i3+ " "+ URL;
+		return str;
 	}
 }
 
